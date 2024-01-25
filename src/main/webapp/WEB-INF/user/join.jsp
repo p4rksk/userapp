@@ -28,6 +28,6 @@
 
     //6. 리다이렉트 (요청한 데이터를 다르게 준다.a를 요청한거를 b로 바꿔서 준다)
     response.setStatus(302);
-    response.setHeader("Location","/board/main.jsp");
+    response.setHeader("Location","/main.do");
     response.setHeader("clock","12pm");
 %>
