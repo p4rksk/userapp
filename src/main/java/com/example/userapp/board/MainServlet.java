@@ -29,6 +29,7 @@ public class MainServlet extends HttpServlet {
                 "</body>\n" +
                 "\n" +
                 "</html>";
+        resp.getWriter().println(html);
 
     }
 }
