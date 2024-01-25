@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.security.Provider;
 import java.time.LocalDateTime;
 
-@WebServlet("/join-form")//회원가입 하는 페이지 디자인 할 수 있는 코드 짜줘
+// @WebServlet("/join-form")//회원가입 하는 페이지 디자인 할 수 있는 코드 짜줘
 public class JoinFormServlet extends HttpServlet {
 
     @Override

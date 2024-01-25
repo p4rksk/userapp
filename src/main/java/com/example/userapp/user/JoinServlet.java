@@ -9,7 +9,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.BufferedReader;
 import java.io.IOException;
 
-@WebServlet("/join")
+//@WebServlet("/join")
 public class JoinServlet extends HttpServlet {
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -41,6 +41,7 @@ public class JoinServlet extends HttpServlet {
         //2. 유효성 검사(100줄 됨)
         if (username.length() < 3 || username.length() > 10) {
             resp.getWriter().println("<h1>username 글자수가 3~10 사이여야 합니다.");
+            return;
         }
 
 
